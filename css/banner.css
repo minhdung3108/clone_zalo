@@ -1,0 +1,63 @@
+header{
+    text-align: left;
+    background-color: white; 
+}
+
+#logo{
+    display:inline-block;
+    margin-left: 240px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+img{
+    width: 80px;
+    height:28.78px;
+}
+
+header #top ul{ 
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    right: 260px;
+    top: 20px;
+    bottom: 20px;
+    font-family: "Roboto", system-ui, "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+header #top ul li{
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover {
+    color: #0068ff;
+}
+
+a:active{
+    color:#0068ff;
+}
+
+a:visited{
+    color: red;
+}
+
+body{
+    background-color: #e0e8ef;
+    
+}
